@@ -35,10 +35,10 @@ Predicting a incorrect class of skin cancer
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Overfitting was observed with the inital model build
+- data_augmentation and dropout used to cater the overfitting issue,
+- data imbalance observed due to big difference in number of samples per category
+- Augmentor used to overcome imbalance issue and model accuracy seems to be better
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -56,14 +56,16 @@ Predicting a incorrect class of skin cancer
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+- https://seaborn.pydata.org/
+- https://plotly.com/
+- https://pandas.pydata.org/
+- https://learn.upgrad.com/
+- https://www.tensorflow.org/)
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@surajy22] - feel free to contact me!
 
 
 <!-- Optional -->
