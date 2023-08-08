@@ -12,10 +12,25 @@ Problem statement: To build a CNN based model which can accurately detect melano
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Business Understanding
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+
+The data set contains the following diseases:
+
+- Actinic keratosis
+- Basal cell carcinoma
+- Dermatofibroma
+- Melanoma
+- Nevus
+- Pigmented benign keratosis
+- Seborrheic keratosis
+- Squamous cell carcinoma
+- Vascular lesion
+- Business Goal:
+You are required to build a multiclass classification model using a custom convolutional neural network in TensorFlow.
+
+Business Risk:
+Predicting a incorrect class of skin cancer
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -29,9 +44,14 @@ Problem statement: To build a CNN based model which can accurately detect melano
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - 1.3.4
+- numpy - 1.20.3
+- matplotlib - 3.4.3
+- seaborn - 0.11.2
+- plotly - 5.8.0
+- sklearn - 1.1.2
+- statsmodel - 0.13.2
+- tensorflow - 2.11.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
